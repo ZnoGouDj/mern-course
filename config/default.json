@@ -1,4 +1,5 @@
 {
   "port": 5000,
+  "jwtSecret": "secret phrase mern",
   "mongoUri": "mongodb+srv://znogoud:shoplifting@cluster0.jg9u5.mongodb.net/app?retryWrites=true&w=majority"
 }
