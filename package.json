@@ -1,0 +1,33 @@
+{
+  "name": "mern-course",
+  "version": "1.0.0",
+  "description": "Mern stack ",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "server": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZnoGouDj/mern-course.git"
+  },
+  "keywords": [
+    "mern",
+    "react"
+  ],
+  "author": "znogoud <znogoud3@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZnoGouDj/mern-course/issues"
+  },
+  "homepage": "https://github.com/ZnoGouDj/mern-course#readme",
+  "dependencies": {
+    "config": "^3.3.6",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.13"
+  },
+  "devDependencies": {
+    "concurrently": "^6.4.0",
+    "nodemon": "^2.0.15"
+  }
+}
