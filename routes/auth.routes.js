@@ -55,7 +55,7 @@ router.post(
     try {
       const errors = validationResult(req);
 
-      if (!error.isEmpty()) {
+      if (!errors.isEmpty()) {
         return res.status(400).json({
           errors: errors.array(),
           message: 'Incorrect login data',
