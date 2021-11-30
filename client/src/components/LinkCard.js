@@ -12,8 +12,8 @@ export const LinkCard = ({ link }) => {
       </p>
       <p>
         From:{' '}
-        <a href={link.form} target="_blank" rel="noopener noreferrer">
-          {link.form}
+        <a href={link.from} target="_blank" rel="noopener noreferrer">
+          {link.from}
         </a>
       </p>
       <p>
